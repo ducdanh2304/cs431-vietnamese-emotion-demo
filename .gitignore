@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.streamlit/secrets.toml
+
+# ViSoBERT weights vượt giới hạn 100 MB của GitHub, tải riêng (xem README)
+models/visobert/model.safetensors

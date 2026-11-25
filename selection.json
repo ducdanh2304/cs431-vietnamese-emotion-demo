@@ -1,0 +1,16 @@
+{
+  "balanced": "visobert",
+  "best_quality": "visobert",
+  "fastest_cpu": "linear_svm_tuned",
+  "best_ml_by_validation": "logreg",
+  "pareto_models_validation_cpu": [
+    "logreg_tuned",
+    "linear_svm_tuned",
+    "visobert"
+  ],
+  "selected_dl_learning_rate": 2e-05,
+  "selected_dl_best_epoch": 2,
+  "quality_tolerance_absolute_macro_f1": 0.03,
+  "selection_based_on": "validation Macro-F1 and CPU p95",
+  "test_used_for_selection": false
+}

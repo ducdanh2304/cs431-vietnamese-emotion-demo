@@ -1,0 +1,9 @@
+numpy
+scikit-learn==1.6.1
+joblib
+torch
+transformers==4.57.3
+huggingface_hub==0.36.0
+sentencepiece
+safetensors
+streamlit>=1.30,<2

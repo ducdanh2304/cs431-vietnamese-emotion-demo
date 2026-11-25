@@ -1,0 +1,21 @@
+{
+  "dataset_repo": "tridm/UIT-VSMEC",
+  "model_repo": "uitnlp/visobert",
+  "seed": 42,
+  "epochs_max": 3,
+  "patience": 2,
+  "max_length": 128,
+  "train_batch_size": 16,
+  "eval_batch_size": 32,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "device": "cuda:0",
+  "gpu": "Tesla T4",
+  "python": "3.13.16",
+  "torch": "2.11.0+cu130",
+  "sklearn": "1.6.1",
+  "transformers": "4.57.3",
+  "huggingface_hub": "0.36.0",
+  "cpu_threads": 2,
+  "latency_protocol": "batch=1, sequential, warmup, normalized text + tokenizer/vectorizer + predict + output"
+}
